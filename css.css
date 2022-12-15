@@ -1,0 +1,155 @@
+body {
+    font-family:'Roboto', sans-serif;
+    color:#000000;
+    font-size: 16px;
+    background-color: #eaeaea;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box; /* Opera/IE 8+ */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome */
+    margin: 0;
+    padding: 0;
+  }
+
+
+a {
+    text-decoration: none; 
+    color:#000000; 
+}
+
+img {
+    width: 100%;
+}
+
+.Header{
+    background-color: #ffffff;
+}
+.Img_Logo{
+    height: 50% !important;
+    padding: 22px 100px 10px 100px;
+}
+
+.Header_content{
+    box-shadow: 0px 16px 20px 3px rgba(0, 0, 0, 0.755);
+}
+
+.Location{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+
+.Location_form{
+}
+
+.Location_text{
+    border: 0px;
+    background-color: #eaeaea;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.Menu{
+ overflow: hidden; */
+    padding: 0 5vw;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.Menu_Title{
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.Menu_Tagline{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.Menu_Btn{
+    background: linear-gradient(170deg, #ff79da, #9356dc);
+    color: white;
+    font-size: large;
+    padding: 19px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 2px lightgrey;
+    width: 250px;
+    max-width: 250px;
+    transition: 250ms;
+}
+
+.Funct_Choice{
+    padding: 0px 10px 10px 10px;
+    background-color: #ffffff;
+
+}
+
+.Funct_Choice_btn{
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f6f6;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 4px 4px 2px lightgrey;
+    border-radius: 20px 20px;
+    text-align: center;
+    height: 4rem;
+    line-height: 2rem;
+    white-space: nowrap;
+}
+
+.Funct_Choice_btn:hover{
+    background-color: #f2eafb;
+}
+
+
+.Funct_Card{
+border-radius: 50%;
+background-color: #9356dc;
+color: white;
+position: relative;
+right: 28px;
+padding: 2px 10px;
+}
+
+.fa-store-alt,.fa-list-ul,.fa-mobile-alt{
+    color: #9356dc;
+}
+
+
+.Restaurant_Title{
+    margin-left: 10px;
+}
+.Restaurants_Cards_Main{
+    margin: 20px 20px 20px 20px;
+}
+
+.Restaurants_Cards img{
+border-radius: 20px;
+}
+
+.New_sticker{
+    font-weight: bold;
+    background-color: #99e2d0;
+    color: #1a8a68;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    left: 73%;
+    top: 71px;
+    position: relative;
+    line-height: 40px;    
+}
